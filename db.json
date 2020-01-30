@@ -1,5 +1,5 @@
-[
-    {
+{
+  "houses":[  {
         "id": "H001",
         "name":"Gryffindor",
         "liderhouse" : "Minerva McGonagall",
@@ -43,4 +43,5 @@
         "element":"tierra",
         "colors":["azul","bronce"]
       }
-]
+    ]
+}
