@@ -1,7 +1,9 @@
-mixin block(identify)
-    .block(data-id=identify)
-        .block__img
-            img(src="", alt="logo")
+mixin block(identify,titulo)
+    .block(data-id=identify)   
+      .block__img
+        img(src="", alt="logo")
+      .block__title
+        p #{titulo}
         
 
 head
@@ -9,16 +11,16 @@ head
   meta(name="viewport", content="width=device-width, initial-scale=1.0")
   meta(http-equiv="X-UA-Compatible", content="ie=edge")
   link(rel="stylesheet", href="css/main.css")
-  title Document
+  title HP
 body
     .container
-      +block("Gryffindor")
-      +block("Slytherin")
-       
-       
+      +block("5a05e2b252f721a3cf2ea33f","Gryffindor")
+      +block("5a05dc8cd45bd0a11bd5e071","Slytherin")
+      +block("5a05da69d45bd0a11bd5e06f","Ravenclaw")
+      +block("5a05dc58d45bd0a11bd5e070","Hufflepuff")
 
 
 
-    script(src="app.js")        
+    script(src="js/app.js")        
 
 
