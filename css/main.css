@@ -35,3 +35,27 @@
   height: 350px;
   width: 30%;
 }
+
+.container-loading {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/backgroundInitial.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  line-height: 1.5;
+}
+.container-loading h2 {
+  font-size: 32px;
+}
+.container-loading p {
+  font-size: 16px;
+}
+
+.img-logo {
+  width: 300px;
+}
